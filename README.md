@@ -49,3 +49,11 @@ This tool relies on the hard work of the handheld community:
 This project is licensed under the **MIT License**.
 
 **CAUTION**: This software is in **BETA**. It performs file operations that can be destructive (specifically Power Clone). **Always backup your ROMs.** The author is not responsible for data loss or hardware issues.
+
+
+
+## ☕ Support the Project
+If "The Vortex" saved you some time or made your handheld setup easier, feel free to buy me a coffee! 
+ko_fi: [your_username](https://ko-fi.com/kofisupporter19535)
+custom: ["https://www.buymeacoffee.com"]
+
