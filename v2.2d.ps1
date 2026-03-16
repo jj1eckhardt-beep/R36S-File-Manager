@@ -1,39 +1,36 @@
 $scriptTitle = (Get-Item $PSCommandPath).BaseName
 
 $HeaderArt = @"
-	  ________________________________
-	 /................................\
-	 |:                              :|
-	 |:                              :|
-	 |:                              :|
-	 |:     R36S  FILE  MANAGER      :|
-	 |:            $scriptTitle             :|
-	 |:         "The Vortex"         :|
-	 |:                              :|
-	 |:                              :|
-	 |:                              :|
-	 |:                              :|
-	 |:                              :|
-	 |:         jj1eckhardt	         :|
-	 |:..............................:|
-	 |                                |
-	 |      __     {:  :}             |
-	 |     |  | 	        ( X )     |
-	 |  ___|  |___	                  |
-	 | |          |     ( Y )   ( A ) |
- 	 | |___    ___|                   |
-	 |     |  |             ( B )     |
-	 |     |__|                       |
-	 |              ( M )             |
-	 |                                |
-	 |         ( S )    ( S )         |
-	 |        select    start         |
-	 |   ___                    ___   |
-	 |  /   \                  /   \  |
-	 | {     }                {     } |
-	 |  \___/                  \___/  |
-	 |                                |
-	 \________________________________/	
+	  _________________________________
+	 /.................................\
+	 |:                               :|
+	 |:                               :|
+	 |:                               :|
+	 |:      R36S  FILE  MANAGER      :|
+	 |:             $scriptTitle             :|
+	 |:         "The Vortex"          :|
+	 |:                               :|
+	 |:                               :|
+	 |:                               :|
+	 |:                               :|
+	 |:                               :|
+	 |:          jj1eckhardt          :|
+	 |:...............................:|
+	 |             __ . __             |
+	 |      __     . ___ .             |
+	 |     |  |    __ . __   ( X )     |
+	 |  ___|  |___                     |
+	 | |          |      ( Y )   ( A ) |
+ 	 | |___    ___|                    |
+	 |     |  |              ( B )     |
+	 |     |__|      menu              |
+	 |              ( M )              |
+	 |    ___   ( S )   ( S )   ___    |
+	 |   /   \  select  start  /   \   |
+	 |  {     }               {     }  |
+	 |   \___/                 \___/   |
+	 |                                 |
+	 \_________________________________/	
 "@
 
 # To display it in the console during launch:
@@ -41,7 +38,7 @@ Write-Host $HeaderArt -ForegroundColor Cyan
 
 
 # ==============================================================================
-#
+# v2.2d
 # ==============================================================================
 # SECTION 1: SYSTEM INITIALIZATION & GLOBAL CORE
 # ==============================================================================
@@ -432,7 +429,8 @@ function Test-PathsReady {
     
     if ([string]::IsNullOrWhiteSpace($global:SourcePath) -or [string]::IsNullOrWhiteSpace($global:DestPath)) {
         $missing = if (!$global:SourcePath) { "MASTER (Source)" } else { "TARGET (SD/PC)" }
-        [System.Windows.Forms.MessageBox]::Show("Please select a $missing folder before running: $ActionName", "Paths Not Set", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        [System.Windows.Forms.MessageBox]::Show("Please select a $missing folder before running: $ActionName", "Paths Not Set", [System.Windows.Forms.MessageBoxButtons]::OK, 
+	  [System.Windows.Forms.MessageBoxIcon]::Warning)
         return $false
     }
     return $true
@@ -999,11 +997,14 @@ function Show-HelpManual {
         @{ Cmd = "[ Sel TARGET ]"; Desc = "Sets the path to your Target SD Card or handheld device folder." },
         @{ Cmd = "[ UNIV SYNC ]" ; Desc = "SAFE. Copies only the missing files from Master to Target." },
         @{ Cmd = "[ PWR CLONE ]" ; Desc = "BRUTE FORCE. Makes Target an EXACT mirror of Master, Folders Only or EVERYTHING." },
-        @{ Cmd = "[ SYS AUDIT ]" ; Desc = "Generates the pipe-separated report and .txt file for review/Excel Import." },
+        @{ Cmd = "[ SYS AUDIT ]" ; Desc = "Scans then generates the pipe-separated report and .txt file for review/import." },
         @{ Cmd = "[ CLEAN Mir ]" ; Desc = "Removes ._ files, empty folders, and junk, making the Target match the Master. " },
+        @{ Cmd = "[ ABORT ]"     ; Desc = "Sends the ABORT command and HALTS the current operation from completing." },
         @{ Cmd = "[ GEN xxxOS ]" ; Desc = "Creates the specific folder structure for ArkOS / dArkOS / RE." },
-	@{ Cmd = "[ G350 Src ]"  ; Desc = "Uses a stock G350 SD (Set as MASTER), as a source to add to a clean ArkOS structure." }
-	@{ Cmd = "[ ABORT ]"     ; Desc = "Sends the ABORT command and HALTS the current operation from completing." }
+        @{ Cmd = "[ G350 Src ] 1"; Desc = "Uses a stock G350 SD (Set to MASTER), as a source to append a clean ArkOS structure." },
+        @{ Cmd = "[ G350 Src ] 2"; Desc = "If you run this first, it only creates the folders containing ROMS on your target." }  
+				
+	   
     )
 
     foreach ($item in $HelpItems) {
