@@ -22,6 +22,7 @@ Through a collaboration between myself and AI contributors over several weeks, t
 *   **Power Clone**: A "Brute Force" mirror that makes the Target an exact replica of the Master.
 *   **Abort Kill-Switch**: Instantly terminates active Robocopy processes if you need to stop an operation.
 
+<img width="1260" height="992" alt="Image" src="https://github.com/user-attachments/assets/1ad82b03-6c11-48ba-b79e-d8a113e6fa1d" />
 ---
 
 ## 🛠️ Installation & Usage
