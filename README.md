@@ -53,7 +53,8 @@ This project is licensed under the **MIT License**.
 
 
 ## ☕ Support the Project
-If "The Vortex" saved you some time or made your handheld setup easier, feel free to buy me a coffee! 
-ko_fi: [your_username](https://ko-fi.com/kofisupporter19535)
-custom: ["https://www.buymeacoffee.com"]
+If "The Vortex" saved you some time or made your handheld setup easier, feel free to help keep the gears turning!
+
+* [**Support via Ko-fi**](https://ko-fi.com/kofisupporter19535)
+* [**Support via Buy Me a Coffee**](https://www.buymeacoffee.com)
 
