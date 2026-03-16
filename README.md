@@ -2,7 +2,7 @@
 ### *"The Vortex" - High-Speed Handheld Migration Engine*
 
 ## 📖 The Story
-I am a tinkerer, builder, and tech enthusiast. My journey into "The Vortex" of retro handhelds began when my kids brought home a **BattleXP G350**. I quickly added an **R36S** to my collection and started the cycle of flashing OS images and testing different builds.
+I am a tinkerer, builder, and tech enthusiast. My journey into "The Vortex" of retro handhelds began when my kids brought home a **BatleXP G350**. I quickly added an **R36S** to my collection and started the cycle of flashing OS images and testing different builds.
 
 I soon realized that after every fresh flash, the task of copying a massive library of games back to the SD card was tedious and time-consuming. I asked a simple question: *"You know what would be nice? A script that automated this process from a master library..."*
 
@@ -14,7 +14,7 @@ Through a collaboration between myself and AI contributors over several weeks, t
 
 *   **Engineered with Robocopy**: Utilizes the high-performance Windows `robocopy` engine. By using the multi-threaded (`/MT`) flag, it bypasses the single-threaded limitations of standard File Explorer, moving data significantly faster.
 *   **Data-Driven Logic (Master Database)**: At the core is a 130-entry "Smart Database" that acts as a **Tag List**, defining system behavior:
-    *   **OS-Specific Flags**: Tailors folder generation for **ArkOS**, **dArkOS**, or **ArkOS-RE**.
+    *   **OS-Specific Flags**: Tailors folder generation for **ArkOS**, **dArkOS**, or **dArkOS-RE**.
     *   **Subfolder Intelligence**: Correctly handles complex nested paths like `psp/ppsspp` or `ports/xash3d`.
     *   **Excel-Ready**: Generates 100-character wide, pipe-separated reports (`sep=|`) for easy inventory and Excel import.
 *   **G350 Source (Set as MASTER)**: Automatically filters 170+ "junk" folders from stock G350 cards and safely appends them to a clean ArkOS structure.
