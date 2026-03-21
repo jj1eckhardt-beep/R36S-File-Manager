@@ -2,7 +2,7 @@
 ### *"The Vortex" - High-Speed Handheld Migration Engine*
 
 ## 📖 The Story
-I am a builder, tinkerer, and tech and SBC enthusiast. My journey into "The Vortex" of retro handhelds began when my kids brought home a **BatleXP G350**. I quickly added an **R36S** to my collection and started the cycle of flashing OS images and testing different builds.
+I am a builder, tinkerer, tech, and SBC enthusiast. My journey into "The Vortex" of retro handhelds began when my kids brought home a **BatleXP G350**. I quickly added an **R36S** to my collection and started the cycle of flashing OS images and testing different builds.
 
 I soon realized that after every fresh flash, the task of copying a massive library of games back to the SD card was tedious and time-consuming. I asked a simple question: *"You know what would be nice? A script that automated this process from a master library..."*
 
