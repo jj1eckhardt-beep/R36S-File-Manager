@@ -22,12 +22,12 @@ Through a collaboration between myself and AI contributors over several weeks, t
 *   **Power Clone**: A "Brute Force" mirror that selectively makes the Target an exact replica of the Master.
 *   **Abort Kill-Switch**: Instantly terminates active Robocopy processes if you need to stop an operation.
 
-<img width="1260" height="992" alt="Image" src="https://github.com/user-attachments/assets/1ad82b03-6c11-48ba-b79e-d8a113e6fa1d" />
+<img width="1354" height="1009" alt="Image" src="https://github.com/user-attachments/assets/630a62d4-3ce5-408d-9bf4-86d258049278" />
 ---
 
 ## 🛠️ Installation & Usage
 
-1.  **Download**: Grab the `v2.2d.ps1` and the `Launcher.bat` files.
+1.  **Download**: Grab the `1.0.0.ps1` and the `Launcher.bat` files.
 2.  **Inspect**: I encourage you to open the files in Notepad and inspect the code for yourself before running.
 3.  **Launch**: Run the `.bat` file (it handles the Administrator permissions required for Robocopy).
 4.  **Configure**:
