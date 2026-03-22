@@ -6,7 +6,7 @@ I am a builder, tinkerer, technician, and SBC enthusiast. My journey into "The V
 
 I soon realized that after every fresh flash, the task of copying a massive library of games back to the SD card was tedious and time-consuming. I asked a simple question: *"You know what would be nice? A script that automated this process from a master library..."*
 
-Through a collaboration between myself and AI contributors over several weeks, that question evolved into this manager. Coming from a background in **Industrial Control Systems and Power Generation**, I am more used to **Function Block, and Ladder Logic** than **PowerShell**. Coming from a background in **Industrial Control Systems and Power Generation**, I am more used to **Function Block, and Ladder Logic** than **PowerShell**.  But, as someone who regularly tests software, I  applied that same "Industrial Logic" to bridge the gap between messy stock SD cards and the "Gold Standard" ArkOS structures we use today.
+Through a collaboration between AI contributors and myself over several weeks, that question evolved into this tool. Coming from a background in **Industrial Control Systems and Power Generation**, I am more used to **Function Block, and Ladder Logic** than **PowerShell**.  But, as someone who regularly tests software, I  applied that same "Industrial Logic" to bridge the gap between messy stock SD cards and the "Gold Standard" ArkOS structures we use today.
 
 ---
 
