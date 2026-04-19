@@ -6,7 +6,7 @@ I am a builder, tinkerer, technician, and SBC enthusiast. My journey into "The V
 
 I soon realized that after every fresh flash, the task of copying a massive library of games back to the SD card was tedious and time-consuming. I asked a simple question: *"You know what would be nice? A script that automated this process from a master library..."*
 
-Through a collaboration between AI contributors and myself over several weeks, that question evolved into this tool. Coming from a background in **Industrial Control Systems and Power Generation**, I am more used to **Function Block, and Ladder Logic** than **PowerShell**.  But, as someone who regularly tests software, I  applied that same "Industrial Logic" to bridge the gap between messy stock SD cards and the "Gold Standard" ArkOS structures we use today.
+Through a collaboration between AI contributors and myself over several weeks, that question evolved into this tool. Coming from a background in **Industrial Control Systems and Power Generation**, I am more used to **Function Block, and Ladder Logic** programming than **PowerShell**.  But, as someone who regularly tests software, I  applied that same "Industrial Logic" to bridge the gap between messy stock SD cards and the "Gold Standard" ArkOS structures we use today.
 
 ---
 
@@ -27,7 +27,7 @@ Through a collaboration between AI contributors and myself over several weeks, t
 
 ## 🛠️ Installation & Usage
 
-1.  **Download**: Grab the `1.0.0.ps1` and the `Launcher.bat` files.
+1.  **Download**: Grab the `Latest.ps1` and the `Launcher.bat` files.
 2.  **Inspect**: I encourage you to open the files in Notepad and inspect the code for yourself before running.
 3.  **Launch**: Run the `Launcher.bat` file (it handles the Administrator permissions required for Robocopy).
 4.  **Configure**:
@@ -53,7 +53,6 @@ This project is licensed under the **MIT License**.
 
 
 ## ☕ Support the Project
-If you are, or someone you know is a "Power" PowerShell user, feel free to contribute code and suggestions for future improvements.  I am new to PowerShell, and am still learning.  I relied heavily on AI for the correct syntax and implementation of the functions.
 
 If you enjoy testing and debugging software, your time spent identifying issues and providing feedback and fixes is most valued.
 
