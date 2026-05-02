@@ -21,6 +21,7 @@ Through a collaboration between AI contributors and myself over several weeks, t
 *   **Universal Sync**: A "Safe" copy engine that only moves missing or newer files.
 *   **Power Clone**: A "Brute Force" mirror that selectively makes the Target a conditional copy of the Master.
 *   **Abort Kill-Switch**: Instantly Halts/Pauses the active Robocopy processes if you need to stop an operation.  You can then quit or resume.
+*   **Audit**: Initiates a system audit that inventories and reports totals in the main log window and creates .txt files on Master and Target.
 
 ---
 
@@ -36,15 +37,17 @@ Through a collaboration between AI contributors and myself over several weeks, t
 
 ---
 ## 📸 Interface Preview
-<img width="1678" height="1249" alt="image" src="https://github.com/user-attachments/assets/fae39a54-e0c4-45ce-b638-cbd39dd5849c" />
+<img width="2000" height="1500" alt="image" src="https://github.com/user-attachments/assets/b48e0518-ae9f-4023-ab9f-64477a851dff" />
 
 ## 🖥️ System Screenshots
-<img width="1266" height="1478" alt="image" src="https://github.com/user-attachments/assets/7f5a352f-757f-47c3-90b7-d14632a75f39" />
-<img width="1164" height="544" alt="image" src="https://github.com/user-attachments/assets/191204c7-8010-449c-8021-e0a6570dfd6f" />
+Run Full System Audit
+<img width="1270" height="1483" alt="image" src="https://github.com/user-attachments/assets/1ac0a507-9dec-4542-a6cf-4e2cc9de03d1" />
 
+.txt file output format
+<img width="1183" height="842" alt="image" src="https://github.com/user-attachments/assets/ec790f66-8485-46c0-97a0-dcda436b6b6e" />
 
 ## 🖼️ Dashboard in Action
-<img width="1274" height="1486" alt="image" src="https://github.com/user-attachments/assets/76978382-993e-46db-aa49-7630bcb4d668" />
+<img width="1248" height="1464" alt="image" src="https://github.com/user-attachments/assets/36128580-8b05-4e09-bc5b-a7d93cf2895c" />
 
 ## 📚 Credits & Sources
 This tool relies on the hard work of the handheld community:
